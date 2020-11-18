@@ -1,0 +1,13 @@
+.idea
+
+# downloaded dependencies (subcharts)
+installation-succeeds/umbrella-chart/charts
+installation-succeeds/svc1/charts
+installation-succeeds/svc2/charts
+
+installation-fails/umbrella-chart/charts
+installation-fails/svc1/charts
+installation-fails/svc2/charts
+
+# local subchart references
+**/Chart.lock

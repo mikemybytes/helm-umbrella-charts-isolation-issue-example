@@ -1,0 +1,11 @@
+# override the namings to avoid obvious conflicts between created resourced
+
+svc1:
+  mongodb:
+    nameOverride: "svc1-mongodb"
+    fullnameOverride: "svc1-mongodb"
+
+svc2:
+  mongodb:
+    nameOverride: "svc2-mongodb"
+    fullnameOverride: "svc2-mongodb"
