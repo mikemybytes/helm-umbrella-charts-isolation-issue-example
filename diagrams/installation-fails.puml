@@ -1,0 +1,7 @@
+@startwbs
+* umbrella-chart
+** svc1
+*** **bitnami**/mongodb
+** svc2
+*** **stable**/mongodb
+@endwbs
