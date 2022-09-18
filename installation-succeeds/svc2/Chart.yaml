@@ -22,10 +22,9 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application is using.
 appVersion: 1.16.0
 
+# Outdated chart version - only for presentation purposes!
+# See: https://github.com/bitnami/charts/issues/10586#issuecomment-1147234876
 dependencies:
-#  - name: mongodb
-#    version: 7.4.6
-#    repository: "https://charts.helm.sh/stable"
   - name: mongodb
     version: 8.1.1
-    repository: "https://charts.bitnami.com/bitnami"
+    repository: "https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami"
